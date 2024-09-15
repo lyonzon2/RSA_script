@@ -33,4 +33,4 @@ This project contains Python scripts for RSA encryption and decryption. The `rsa
    Follow the prompts to:
 
    Choose encryption (C) or decryption (D).
-   Enter the message, public/private key parameters (e.g., 𝑒e, 𝑑d, 𝑛n).
+   Enter the message, public/private key parameters (e.g., 𝑒, 𝑑, 𝑛).
