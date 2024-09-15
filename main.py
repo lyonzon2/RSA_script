@@ -1,4 +1,4 @@
-import RSA_Algo 
+import rsa_algorithm
 import time 
 
 def encode_string(string):
@@ -24,6 +24,7 @@ while True :
         n = int(input("enter n : "))
         encyptiontext = [RSA_Algo.exp_mod(ch,e,n) for ch in message_encoded]
         encyptiontext = "".join(chr(ch) for ch in encyptiontext )
+        assert ValueError
         print(f"encrption cipher  is [{encyptiontext}]")
         break
 

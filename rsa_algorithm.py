@@ -85,7 +85,7 @@ if __name__ == "__main__":
     
 
     print("select p and q  ...")
-    path = r"c:"+ko+"\\"+"rsa_info.txt"
+    path = r"rsa_info.txt"
     p = random.choice(prime_numbers)
     q = random.choice(prime_numbers)
     file = open(path,"w")
